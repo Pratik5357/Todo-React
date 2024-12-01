@@ -1,0 +1,63 @@
+#root {
+  max-width: 1280px;
+  margin: 0;
+  padding: 0;
+}
+
+.box{
+  width: 1180px;
+  height: 700px;
+  background-color: #1b263b;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+nav{
+  background-color: #415a77;
+  height: 80px;
+}
+
+.inputs{
+  width: 100%;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.inputs input{
+  width: 90%;
+  height: 50px;
+  padding: 0.7rem 2rem;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: #0a1726;
+  color: #ffffff;
+}
+
+.inputs input::placeholder{
+  color: #91a7b1;
+}
+
+.icon{
+  height: 50px;
+  cursor: pointer;
+  background-color: #4b6d94;
+  border-radius: 0.5rem;
+}
+
+.tasklist{
+  /* border: 1px solid white; */
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+  overflow: scroll;
+}
+
+.AddBar{
+  height: 70px;
+}
+
+.taskbox{
+  height: 550px;
+}
